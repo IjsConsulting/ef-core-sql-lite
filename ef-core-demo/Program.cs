@@ -33,8 +33,8 @@ namespace EFGetStarted
 
                 // Delete
                 Console.WriteLine("Delete the blog");
-                //db.Remove(blog);
-                //db.SaveChanges();
+                db.Remove(blog);
+                db.SaveChanges();
             }
         }
     }
